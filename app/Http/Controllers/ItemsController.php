@@ -122,7 +122,7 @@ class ItemsController extends Controller
         $item->delete();
 
 
-        $response = array('response'=>'item deleted','success'=>true);
+        $response = array('response'=>'item deleted succesifully','success'=>true);
         return $response;
 
     }
